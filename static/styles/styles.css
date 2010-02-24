@@ -1,8 +1,8 @@
 #all-header{ }
 #header{
 	background:#7CC6FF;
-	height:50px;
-	padding: 20px 0px;
+	height:70px;
+	padding: 10px 0px;
 	-webkit-border-bottom-right-radius:25px;
 	-webkit-border-bottom-left-radius:25px;
 	-moz-border-radius-bottomleft: 25px; 
@@ -26,6 +26,9 @@
 	border-radius: 20px; 
 	border-radius: 20px;
 }
+#logo{
+	height:70px;
+}
 a{
 	text-decoration: none!important;
 }
@@ -43,7 +46,7 @@ a{
 }
 #title{
 	font-variant: small-caps;
-	font-size: 24px;
+	font-size: 36px;
 }
 .center{
 	text-align:center;
