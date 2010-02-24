@@ -11,11 +11,11 @@
 	  height: 140,
 	  theme: {
 	    shell: {
-	      background: '#29C4F0',
+	      background: '#7CC6FF',
 	      color: '#ffffff'
 	    },
 	    tweets: {
-	      background: '#29C4F0',
+	      background: '#7CC6FF',
 	      color: '#ffffff',
 	      links: '#0762eb'
 	    }

@@ -11,6 +11,10 @@
 	border-bottom-right-radius: 35px; 
 
 }
+#barline{
+	background:#aaaaaa;
+	min-height:10px;
+}
 #footer{
 	background:#7CC6FF;
 	-webkit-border-radius:20px;
