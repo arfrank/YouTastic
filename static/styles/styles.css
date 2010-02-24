@@ -13,7 +13,9 @@
 }
 #barline{
 	background:#aaaaaa;
-	min-height:10px;
+	color:#aaaaaa;
+	font-size: 10%;
+	min-height:6px;
 }
 #footer{
 	background:#7CC6FF;
