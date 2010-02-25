@@ -1,6 +1,5 @@
 <div id="main-content" class="border span-14 prepend-2">
-	<span class="large">
-	</span>
+	<?php $this->load->view('base/stream'); ?>
 </div>
 <div class="prepend-1 append-1 span-6 last">
 <?php 
