@@ -10,6 +10,7 @@ class App extends Controller {
 	function index()
 	{
 		$data['content']='app/index';
+		$data['feed']=array(1,2,3,4);
 		$this->load->view('base/base',$data);
 	}
 	function about()

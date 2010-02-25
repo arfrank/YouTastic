@@ -6,6 +6,6 @@
 	</div>
 	<div class="span-24" id="header">
 		<a href="/"><div class="span-1 prepend-1" id="logo"><img id="logo" alt="logo" title="logo" src="/static/images/logo2.gif" /></div></a>
-		<div class="span-8 prepend-1" id="title">YouTastic.com</div>
+		<div class="span-8 prepend-1"><div id="title">YouTastic.com</div><div id="subtitle" class="prepend-1">Life's a game, now social media is too...</div></div>
 	</div>
 </div>

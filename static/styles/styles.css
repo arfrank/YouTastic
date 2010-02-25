@@ -47,6 +47,11 @@ a{
 #title{
 	font-variant: small-caps;
 	font-size: 36px;
+	font-weight: bold;
+}
+#subtitle{
+	color:#ffffff;
+	font-weight: bold;
 }
 .center{
 	text-align:center;
