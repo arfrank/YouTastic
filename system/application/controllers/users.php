@@ -13,9 +13,9 @@ class Users extends Controller {
 	}
 	
 	function services(){
-		$this->load->model('Accounts');
+		$this->load->model('accounts');
 
-		$data['services']=$this->Accounts->findAll("user_id = '1'");//".$this->session->userdata('user_id')."'");
+		$data['services']=$this->accounts->findAll("user_id = '1'");//".$this->session->userdata('user_id')."'");
 		$data['content']='base/plus_sidebar';
 		$data['main_content']='users/services';
 		$data['sidebar']='users/sidebars/profile';
