@@ -39,8 +39,9 @@
 | routes must come before any wildcard or regular expression routes.
 |
 */
-$route['ajax/:any'] = 'ajax/$1';
-$route['users/:any'] = 'users/$1';
+$route['ajax/(:any)'] = 'ajax/$1';
+$route['oauth/(:any)'] = 'oauth/$1';
+$route['users/(:any)'] = 'users/$1';
 $route['(:any)']='app/$1';
 $route['default_controller'] = "app";
 $route['scaffolding_trigger'] = "";
