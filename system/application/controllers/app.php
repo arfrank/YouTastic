@@ -5,6 +5,7 @@ class App extends Controller {
 	function App()
 	{
 		parent::Controller();	
+		$this->output->enable_profiler(TRUE);
 	}
 	
 	function index()
