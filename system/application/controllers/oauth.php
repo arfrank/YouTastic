@@ -15,6 +15,7 @@ class Oauth extends Controller {
 	//Adding twitter as a feed
 	function twitter(){
 		// Set app keys
+		$this->load->config('services');
 		$consumer_key = $this->config->item('twitter_key');
 		$consumer_key_secret = $this->config->item('twitter_secret');
 
