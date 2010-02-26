@@ -16,7 +16,9 @@ class Users extends Controller {
 		$this->load->model('Accounts');
 
 		$data['services']=$this->Accounts->findAll("user_id = '1'");//".$this->session->userdata('user_id')."'");
-		$data['content']='users/services';
+		$data['content']='base/plus_sidebar';
+		$data['main_content']='users/services';
+		$data['sidebar']='users/sidebars/profile';
 		$data['flashmessage'] = ($this->session->flashdata('message') ? $this->session->flashdata('message') : FALSE );
 		$this->load->view('base/base',$data);
 	}

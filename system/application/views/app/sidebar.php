@@ -1,4 +1,4 @@
-<iframe width='220' height='250' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' allowtransparency='true' src='http://chatroll.com/embed/chat/youtastic?id=a4E7GwYFgBR&platform=html&w=$0'> </iframe>
+<iframe width='220' height='230' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' allowtransparency='true' src='http://chatroll.com/embed/chat/youtastic?id=a4E7GwYFgBR&platform=html&w=$0'> </iframe>
 <div class="clear"></div>
 	<script src="http://widgets.twimg.com/j/2/widget.js"></script>
 	<script>
@@ -8,7 +8,7 @@
 	  rpp: 5,
 	  interval: 6000,
 	  width: 220,
-	  height: 140,
+	  height: 135,
 	  theme: {
 	    shell: {
 	      background: '#7CC6FF',

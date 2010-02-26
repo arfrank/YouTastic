@@ -9,8 +9,9 @@ class App extends Controller {
 	
 	function index()
 	{
-		$data['content']='app/index';
-		$data['feed']=array(1,2,3,4,4,5,6,4,4,4,4,6,4,4,4,9);
+		$data['main_content']='app/index';
+		$data['sidebar']='app/sidebar';
+		$data['content']='base/plus_sidebar';
 		$this->load->view('base/base',$data);
 	}
 	function about()
