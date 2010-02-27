@@ -38,8 +38,8 @@ class Oauth extends Controller {
 
 	$data['data']=serialize(array('access_token'=>$auth['access_token'],'access_token_secret'=>$auth['access_token_secret'],'username'=>$credentials->screen_name,'service'=>'twitter'));
 			//load model to create a new account
-			$existAccount = $this->accounts->findCount('hash = '.$data['hash']);
-			if( ! $existAccount){
+			$existAccount = $this->accounts->findCount('hash = "'.$data['hash'].'"');
+			if( ! $existAccount['count']){
 				$this->accounts->insert($data); // SAVE THE ACCESS TOKENS
 				$this->session->set_flashdata('message','<div class="success">Congratulations, you have successfully added a Twitter account to your feed.</div>');
 			}else{
