@@ -32,6 +32,8 @@ class Twitter {
 							'statuses/public_timeline'		=> array('http' => 'get',	'auth' => FALSE),
 							'statuses/friends_timeline'		=> array('http' => 'get',	'auth' => TRUE),
 							'statuses/user_timeline'		=> array('http' => 'get',	'auth' => FALSE),
+							'statuses/retweeted_by_me'		=> array('http' => 'get',	'auth' => TRUE),
+							'statuses/retweets_of_me'		=> array('http' => 'get',	'auth' => TRUE),
 							'statuses/mentions'				=> array('http' => 'get',	'auth' => TRUE),
 							'statuses/show'					=> array('http' => 'get',	'auth' => FALSE),
 							'statuses/update'				=> array('http' => 'post',	'auth' => TRUE),

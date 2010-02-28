@@ -175,7 +175,7 @@ class MY_Model extends Model
 
 		if ($order != NULL)
 		{
-			$this->db->orderby($order);
+			$this->db->order_by($order[0],$order[1]);
 		}
 
 		if ($limit != NULL)
@@ -276,7 +276,7 @@ class MY_Model extends Model
 	 * @access public
 	 */
 
-	function generateList($conditions = null, $order = 'id ASC', $start = 0, $limit = NULL, $key = null, $value = null)
+	function generateList($conditions = null, $order = array('id','ASC'), $start = 0, $limit = NULL, $key = null, $value = null)
 	{
 		$data = $this->findAll($conditions, "$key, $value", $order, $start, $limit);
 
@@ -310,7 +310,7 @@ class MY_Model extends Model
 	 * @access public
 	 */
 
-	function generateSingleArray($conditions = null, $field = null, $order = 'id ASC', $start = 0, $limit = NULL)
+	function generateSingleArray($conditions = null, $field = null, $order = array('id','ASC'), $start = 0, $limit = NULL)
 	{
 		$data = $this->findAll($conditions, "$field", $order, $start, $limit);
 
